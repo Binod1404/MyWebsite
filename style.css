@@ -1,0 +1,90 @@
+body {
+    background-color: #00ADB5;
+    margin : 0px;
+    text-align: center;
+}
+.rimg {
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 80px;
+    top: 1px;
+}
+.container-head {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #222831;
+}
+h2 {
+    display: block;
+    text-align: center;
+}
+.bigimg {
+    display : flex;
+    justify-content: center;  
+}
+.bigimg > img {
+    display: block;
+    margin: 2px;
+}
+.limg {
+    display: block;
+    position: absolute;
+    left: 80px;
+}
+
+.middlething {
+    display: block;
+    background-color: #EEEE;
+    margin : 50px 0px;
+}
+.dp {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.container2 > div > h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.container2 > div > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.rule {
+    display: flex;
+    justify-content: center;
+}
+ 
+hr {
+    border: dotted #393E46 10px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    grid-template-rows: repeat(1, 1fr);
+    width : 50%;
+    margin : 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.btn {
+    color: #00ADB5;
+    margin-bottom: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
